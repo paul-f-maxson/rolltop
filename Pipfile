@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+premailer = "*"
+
+[requires]
+python_full_version = "3.8.5"
+
+[scripts]
+build = "bash -c 'python -m premailer --strip-important --remove-classes --pretty --disable-validation --base-path ./src/ < ./src/index.html > ./dist/index.html'"
+copy = "bash -c 'pbcopy < dist/index.html'"
+open = "bash -c 'open dist/index.html'"

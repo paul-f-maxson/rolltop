@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+div#main {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.1rem;
+}
+
+div#background {
+  background-color: lightskyblue;
+}
+
+div#logo-wrapper {
+  text-align: center;
+}
+
+a#logo {
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+article#email-body {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.text {
+  font-family: Helvetica, sans-serif;
+  color: darkslategray;
+}
